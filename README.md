@@ -4,10 +4,14 @@
 
 ### A. Preprocessing:
 
-  --- Image Preprocessing 
+  --- Image Preprocessing: Change for pretrained model for VGG16, Resnet150, and Bottomup Feature.
+            
        --- python preprocess-images.py
-  ---Create VoCabulary     
-       --- python preprocess-vocab.py
+  
+  --- Create VoCabulary:
+
+    --- python preprocess-vocab.py
+
 ### B. To train the model with:
       --- ./train.sh
       
@@ -18,7 +22,6 @@
       --- python view-log.py <path to .pth log>
 
 ### E. Python 3 dependencies
-
       torch
       torchvision
       h5py
