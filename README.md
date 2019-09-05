@@ -1,10 +1,12 @@
 # Explanation vs Attention : A Two Player Game to obtain Attention for VQA
 
 ## Training Steps:
+We have provide training process for basic attention model using  VGG16 and  Resnet150 image feature.
+For Bottom-up feature, we need to download from bottom up repo and need to change little bit for bounding box in the training file. 
 
 ### A. Preprocessing:
 
-  --- Image Preprocessing: Change for pretrained model for VGG16, Resnet150, and Bottomup Feature.
+  --- Image Preprocessing: Need to change pretrained model for VGG16, Resnet150, and Bottom-up Feature.
             
        --- python preprocess-images.py
   
